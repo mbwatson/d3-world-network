@@ -41,7 +41,7 @@ function App() {
             <h1>Network Map</h1>
             <hr/>
             <WorldNetwork
-                projection="geoProjectionMutator"
+                projection="geoOrthographic"
                 scale={ 300 }
                 nodes={ nodes }
                 edges={ edges }
@@ -51,5 +51,3 @@ function App() {
 }
 
 export default App
-
-// geoNaturalEarth1

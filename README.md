@@ -15,7 +15,7 @@ Along with React, the `WorldNetwork` component needs to be imported. The stylesh
 ```jsx
 import React from 'react'
 import WorldNetwork from 'world-network'
-import 'world-network/dist/index.css'
+import '@mwatson/world-network/dist/index.css'
 ```
 
 Then use the component in your React component with the following props: `projection`, `scale`, `nodes`, and `edges`.
