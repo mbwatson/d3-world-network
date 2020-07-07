@@ -1,6 +1,6 @@
 {
   "name": "@mwatson/world-network",
-  "version": "1.0.0-3",
+  "version": "1.0.1",
   "description": "Render a D3 map of Earth with a graph (nodes and edges, defined by lon/lat coordinates) superimposed in its surface.",
   "author": "mbwatson",
   "license": "MIT",
