@@ -4,7 +4,7 @@
   "description": "Render a D3 map of Earth with a graph (nodes and edges, defined by lon/lat coordinates) superimposed in its surface.",
   "author": "mbwatson",
   "license": "MIT",
-  "repository": "mbwatson/world-network",
+  "repository": "mbwatson/d3-world-network",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
