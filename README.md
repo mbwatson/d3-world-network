@@ -10,7 +10,9 @@ npm install --save world-network
 
 ## Usage
 
-Along with React, the `WorldNetwork` component needs to be imported. The stylesheet that ships with this module can be pulled from `@mwatson/world-network/dist/index.css` after installation, and will give basic styling.
+### Imports
+
+Along with React, the `WorldNetwork` component needs to be imported. 
 
 ```jsx
 import React from 'react'
@@ -18,7 +20,11 @@ import WorldNetwork from 'world-network'
 import '@mwatson/world-network/dist/index.css'
 ```
 
-Then use the component in your React component with the following props: `projection`, `scale`, `nodes`, and `edges`.
+The stylesheet that ships with this module can be pulled from `@mwatson/world-network/dist/index.css`, and it will provide basic styling. This module uses CSS modules, so the resulting class names look something like this: `_styles__country__192bf`. The styles can be overridden by selecting DOM elements by partial class names, like `path[class*="_styles__country"]`, which would select all country paths in the resulting SVG.
+
+### Using the WorldNetwork Component
+
+Use the WorldNetwork component within your React component by passing it the following props: `projection`, `scale`, `nodes`, and `edges`, which will be detailed below.
 
 ```jsx
 <WorldNetwork
