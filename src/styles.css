@@ -1,0 +1,55 @@
+#geomap {
+    border: 1px solid #33333366;
+}
+
+.projectionBorder {
+    fill: none;
+    stroke: #789;
+    stroke-width: 1;
+}
+
+.graticule {
+    fill: none;
+    stroke: #abc;
+    stroke-width: 0.5;
+}
+
+.grabPoint {
+    fill: none;
+    stroke: red;
+}
+
+.country {
+    fill: #47aae133;
+    stroke: #47aae1;
+    stroke-width: 1;
+    transition: fill 250ms;
+}
+
+.country:hover {
+    fill: #47aae1ff;
+}
+
+.node {
+    cursor: pointer;
+    stroke: black;
+    stroke-width: 3;
+    paint-order: stroke fill markers;
+    transition: stroke-width 250ms;
+}
+
+.node:hover {
+    stroke-width: 8;
+}
+
+.edge {
+    stroke-width: 1;
+    stroke: crimson;
+    fill: none;
+}
+
+#clip {
+    fill: none;
+    stroke: red;
+    stroke-width: 2;
+}
